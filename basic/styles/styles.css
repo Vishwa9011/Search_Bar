@@ -1,0 +1,67 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+     background: #343434;
+}
+
+mark {
+     background: yellow;
+     color: white;
+}
+
+input {
+     width: 100%;
+     padding: .5rem;
+     font-size: 1.2rem;
+     border: none;
+     outline: none;
+     border-radius: .25rem;
+}
+
+.main-container {
+     height: 100vh;
+     height: 100dvh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.main {
+     width: 40%;
+}
+
+.search-input {
+     height: 40px;
+     display: flex;
+     align-items: center;
+     background: #fff;
+     border-radius: .25rem;
+     overflow: hidden;
+     border: 1px solid yellow;
+}
+
+.search-input img {
+     padding: .25rem;
+     max-height: 100%;
+     object-fit: cover;
+     padding-inline-start: .5rem;
+     border-inline-start: 1px solid #aaa;
+}
+
+.para-text {
+     color: white;
+     padding-top: 1rem;
+     font-size: 1.1rem;
+     text-align: justify;
+     letter-spacing: 1px;
+}
+
+mark {
+     color: black;
+     background: yellow;
+}
